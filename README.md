@@ -4,10 +4,14 @@ Installation
 
 Clone repository:
 https://github.com/albeisoft/products-laravel-crud-ajax.git
- 
-If you need npm_modules do:
 
-npm install
+Then cd into the folder with this command:
+
+cd products-laravel-crud-ajax
+
+Then do a composer install:
+
+composer install
 
 Edit .env file with appropriate credential for your database server. Just edit these two parameter(DB_USERNAME, DB_PASSWORD).
 

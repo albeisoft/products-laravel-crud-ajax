@@ -2,8 +2,9 @@ Laravel Ajax CRUD (with Yajra Datatables) and Modal Popup
 
 Installation
 
-Clone repository:
-https://github.com/albeisoft/products-laravel-crud-ajax.git
+Clone the repository:
+
+git clone https://github.com/albeisoft/products-laravel-crud-ajax.git
 
 Then cd into the folder with this command:
 

@@ -16,4 +16,13 @@ php artisan migrate
 To create a database named products and then do a database migration using this command:
 php artisan migrate
 
+Run server
+
+Run server using this command:
+
+php artisan serve
+
+Then go to http://localhost:8000 from your browser and see the web application.
+
+
 

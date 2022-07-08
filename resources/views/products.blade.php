@@ -69,7 +69,7 @@
         </div>
     </div>
     <!-- end bootstrap model -->
-    </body>
+
     <script type="text/javascript">
         $(document).ready(function() {
             $.ajaxSetup({

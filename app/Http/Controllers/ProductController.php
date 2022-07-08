@@ -16,13 +16,17 @@ class ProductController extends Controller
     public function index()
     {
         if (request()->ajax()) {
-            return datatables()->of(Product::select('*'))
-                ->addColumn('action', 'product-action')
+            //return datatables()->of(Product::select('*'))
+            return datatables()->of(Product::select('id', 'name', 'quantity', 'created_at'))
+                ->editColumn('created_at', function ($request) {
+                    return $request->created_at->format('d-m-Y H:i'); // format date time
+                })
+                ->addColumn('action', 'products.product-action')
                 ->rawColumns(['action'])
                 ->addIndexColumn()
                 ->make(true);
         }
-        return view('products');
+        return view('products.products');
     }
 
     /**

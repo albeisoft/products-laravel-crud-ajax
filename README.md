@@ -20,10 +20,6 @@ Then create a database named "products" and then do a database migration using t
 
 php artisan migrate
 
-To create a database named products and then do a database migration using this command:
-
-php artisan migrate
-
 Run server
 
 Run server using this command:

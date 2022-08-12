@@ -1,5 +1,10 @@
 Laravel Ajax CRUD (with Yajra Datatables) and Modal Popup
 
+A version example of Laravel and AJAX with Yajra Datatables (jQuery DataTables API for Laravel) application created on:
+- back end (server side) with PHP and Laravel 9 (PHP framework); Authentication (out of the box with Laravel UI and Bootstrap - so can concentrate more on business logic and not need to "reinvent the wheel"), etc..
+- front end (client side, browser side) with JavaScript and Bootstrap (CSS framework), jQuery.
+- database: MySQL. 
+
 Installation
 
 Clone the repository:

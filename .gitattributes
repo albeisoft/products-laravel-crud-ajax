@@ -1,7 +1,7 @@
 * text=auto
 
 //*.css linguist-detectable=false
-*.javascript diff=javascript
+
 
 /*
 *.blade.php diff=html
